@@ -1,12 +1,13 @@
 Gem::Specification.new do |s|
-  s.platform          = Gem::Platform::RUBY
-  s.name              = 'users'
-  s.version           = '0.1'
-  s.description       = 'My application to manage users'
-  s.date              = '2011-08-20'
-  s.summary           = 'My application to manage users'
-  s.files             = Dir['**/**/*', 'init.rb', 'install.rb', 'MIT-LICENSE', 'README', 'uninstall.rb']
-  s.authors           = ['Guirec CORBEL']
-  s.email             = 'guirec.corbel@gmail.com'
-  s.homepage          = 'http://www.guirec-corbel.com'
+  s.name        = "users"
+  s.version     = '0.1'
+  s.platform    = Gem::Platform::RUBY
+  s.authors     = ['Guirec CORBEL']
+  s.email       = ["guirec.corbel@gmail.com"]
+  s.homepage    = "http:///www.guirec-corbel.com"
+  s.summary     = "My application to manage users"
+  s.description = "My application to manage users"
+ 
+  s.required_rubygems_version = ">= 1.8.6"
+  s.require_path = 'lib'
 end
